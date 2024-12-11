@@ -1,0 +1,262 @@
+.background {
+	background-color: rgba(248, 248, 248, 1);
+	width: 100%;
+}
+
+.content {
+	max-width: 1120px;
+	margin: 0 auto;
+	padding: 0 0px;
+}
+
+.top-part {
+	display: flex;
+	align-items: center;
+	height: 36px;
+}
+
+.location-image {
+	width: 20px;
+	height: 20px;
+}
+
+@font-face {
+	font-family: 'Open Sans';
+	src: url('../fonts/Open_Sans/static/OpenSans-Medium.ttf') format('truetype');
+	font-weight: 400;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Open Sans';
+	src: url('../fonts/Open_Sans/static/OpenSans-SemiBold.ttf') format('truetype');
+	font-weight: 600;
+	font-style: normal;
+}
+
+.location-name {
+	margin-left: 8px;
+	font-family: 'Open Sans';
+	font-weight: 400;
+	font-size: 12px;
+}
+
+.store {
+	margin-left: 99px;
+	font-size: 12px;
+}
+
+.buyer {
+	margin-left: 24px;
+	font-size: 12px;
+}
+
+.arrow-down-image {
+	margin-left: 8px;
+}
+
+.loyer-names {
+	margin-left: 24px;
+	font-size: 12px;
+}
+
+.phone-number {
+	margin-left: 395px;
+	font-family: 'Open Sans';
+	font-size: 12px;
+	color: rgba(105, 105, 105, 1);
+}
+
+/* Средняя часть */
+.background-midle {
+	background-color: rgba(255, 255, 255, 1);
+	width: 100%;
+}
+
+.midle-part {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	height: 110px;
+}
+
+.logo-image {}
+
+.search-container {
+	display: flex;
+	align-items: center;
+	margin-left: 56px;
+	padding-left: 16px;
+	width: 346px;
+	height: 48px;
+	border-top: 1px solid rgba(212, 212, 212, 1);
+	border-bottom: 1px solid rgba(212, 212, 212, 1);
+	border-left: 1px solid rgba(212, 212, 212, 1);
+	border-radius: 3px;
+}
+
+.search-container input {
+	border: none;
+	outline: none;
+	background: transparent;
+	font-size: 16px;
+	padding: 5px;
+	width: 100%;
+}
+
+.search-container input::placeholder {
+	color: rgba(0, 0, 0, 0.4);
+	/* Цвет текста подсказки */
+	font-family: 'Open Sans';
+	/* Стиль для подсказки (по желанию) */
+	font-size: 16px;
+}
+
+.search-button {
+	display: flex;
+	margin-left: -3px;
+	justify-content: center;
+	align-items: center;
+	background-color: rgba(224, 0, 27, 1);
+	width: 56px;
+	height: 50px;
+	border: 1px solid rgba(224, 0, 27, 1);
+	border-top-right-radius: 3px;
+	border-bottom-right-radius: 3px;
+}
+
+.favorite-container {
+	display: flex;
+	align-items: center;
+	margin-left: 46px;
+	width: 160px;
+	height: 48px;
+	background-color: rgba(248, 248, 248, 1);
+	border-radius: 3px;
+	padding-left: 16px;
+	padding-right: 16px;
+}
+
+.favorite-text {
+	margin-left: 15px;
+	margin-right: 15px;
+	font-family: 'Open Sans';
+	font-weight: 600;
+}
+
+.compare-container {
+	display: flex;
+	align-items: center;
+	margin-left: 16px;
+
+}
+
+.compare-text {
+	font-family: 'Open Sans';
+	font-weight: 600;
+	margin-left: 12px;
+}
+
+.bin-container {
+	margin-left: 34px;
+	display: flex;
+	align-items: center;
+}
+
+.bin-text {
+	font-family: 'Open Sans';
+	font-weight: 600;
+	margin-left: 14px;
+	margin-right: 19px;
+
+}
+
+.amount-units {
+	display: flex;
+	align-items: center;
+	background-color: rgba(224, 0, 27, 1);
+	height: 17px;
+	width: 17px;
+	border-radius: 50%;
+}
+
+.amount-sting {
+	color: white;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: auto;
+	margin-bottom: auto;
+	font-family: 'Open Sans';
+	font-weight: 600;
+	font-size: 12px;
+}
+
+/* нижняя часть верхнего меню */
+
+.bottom-part {
+	display: flex;
+	align-items: center;
+	background-color: rgba(248, 248, 248, 1);
+	height: 48px;
+
+
+}
+
+.catalog-button {
+	display: flex;
+	align-items: center;
+	width: 136px;
+	height: 48px;
+	background-color: rgba(224, 0, 27, 1);
+	padding-left: 16px;
+	box-sizing: border-box;
+	border-top-left-radius: 3px;
+	border-bottom-left-radius: 3px;
+
+}
+
+.active-catalog-text {
+	color: white;
+	margin-left: 16px;
+
+}
+
+.passive-catalog-text {
+	color: rgba(29, 29, 29, 1);
+	margin-left: 8px;
+
+}
+
+.paper-products-img {
+	margin-left: 24px;
+}
+
+.paper-school-img {
+	margin-left: 32px;
+
+}
+
+.paper-art-img {
+	margin-left: 32px;
+}
+
+.paper-treiding-img {
+	margin-left: 32px;
+
+}
+
+.vertical-divider {
+	width: 1px;
+	height: 66%;
+	background-color: #eae9e9;
+	margin-left: 8px;
+	margin-right: 24px;
+}
+
+.discount-img {}
+
+.discount-text {
+	color: rgba(224, 0, 27, 1);
+	margin-left: 8px;
+
+}
